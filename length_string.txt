@@ -1,0 +1,6 @@
+#!/bin/bash
+# finding length of the string
+
+echo "enter string"
+read st
+echo "length of the string ${#st} "

@@ -1,0 +1,11 @@
+#!/bin/bash
+# finding whether input integer is even or odd ?
+
+echo "enter a number "
+read num
+if [ `expr $num % 2` == 0 ]
+then
+        echo "$num is even number"
+else
+        echo "$num is odd number"
+fi
